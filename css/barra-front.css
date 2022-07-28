@@ -1,0 +1,21 @@
+.barra-laranja{
+    background: #ef6c00;
+    display: flex;
+    
+}
+
+.barra-laranja h3{
+    font-size: 28px;
+    color: white;
+}
+
+.barra-laranja .area-barra{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.barra-laranja ul li{
+    color: white;
+}

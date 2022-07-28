@@ -1,0 +1,42 @@
+.linha{margin-bottom: 8px;}
+.linha label{font-weight: bold; margin-bottom: 6px;}
+.total{width: 100%;}
+.hide{display: none!important;}
+.left{float: left;}
+.flex{display: flex;}
+
+.azul{color: #135e96;}
+
+.area-form{
+    width: 100%;
+}
+
+.area-tabela{
+    width: 49%;
+    float: right;
+}
+
+.tabela  {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 13px;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.btn-upload{margin: 8px 0;}
+.image-preview{margin: 10px 0 0;}
+.remover-item{margin: 6px 0 10px; cursor: pointer; }
+
+
+.lista-gal{  
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    margin-top: 20px;
+}
