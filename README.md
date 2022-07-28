@@ -10,7 +10,7 @@ A página para o CEP contém uma interface amigável em que ao clicar em buscar 
 Para desenvolver a busca por CEP utilizei a [ViaCep](https://viacep.com.br/)
 
 <p align="center">
-  <img width="500" src="https://i.imgur.com/6NG2o6k.jpg">
+  <img width="300" src="https://i.imgur.com/6NG2o6k.jpg">
 </p>
 
 Além do CEP descrito no enunciado do teste também pode-se pesquisar outros CEPs
@@ -35,11 +35,11 @@ O plugin foi testado nos temas pré instalados no Wordpress 6.0*:
 ### Screenshots
 
 <p align="center">
-  <img width="500" src="https://i.imgur.com/6NG2o6k.jpg">
+  <img width="300" src="https://i.imgur.com/6NG2o6k.jpg">
 </p>
 
 <p align="center">
-  <img width="500" src="https://i.imgur.com/B7hFHxG.jpg">
+  <img width="300" src="https://i.imgur.com/B7hFHxG.jpg">
 </p>
 
 
