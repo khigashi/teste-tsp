@@ -56,10 +56,14 @@ function tsp_footer_orange_stripe(){
 	$tsp_cep_value = get_option('tsp_cep_value', false); //var_dump($tsp_cep_value);
     $tsp_cep_active = get_option('tsp_cep_active', false); //var_dump($tsp_cep_active);
     $show = false;
+    $logado = false;
     if( is_home() || is_front_page() ){
         $show = true;
     }
-	if( !empty($tsp_cep_value) && $tsp_cep_active == 'yes' && $show ){
+    if( is_user_logged_in() ){
+        $logado = true;
+    }
+	if( !empty($tsp_cep_value) && $tsp_cep_active == 'yes' && $show && $logado){
 	
 	?>
     <div id="orange_stripe">
