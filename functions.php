@@ -64,7 +64,7 @@ function tsp_footer_orange_stripe(){
         $logado = true;
     }
 	if( !empty($tsp_cep_value) && $tsp_cep_active == 'yes' && $show && $logado){
-	
+        ob_start();
 	?>
     <div id="orange_stripe">
         <div class="content-address">

@@ -23,6 +23,5 @@ define('TSP_TEXT', 'tsp-text' );
 // Main Files
 require_once( 'functions.php' );
 require_once( 'settings.php' );
-require_once( 'shortcode.php' );
 require_once( 'api.php' );
 
