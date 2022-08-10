@@ -5,13 +5,13 @@ if (!defined('ABSPATH')) {
 
 class ConnectViaCep{   
     
-    public function __construct() {
+    function __construct() {
         
         return false;
 		
 	}
 
-    public function get_cep_infos( $tsp_cep_value, $tsp_cep_active ){		
+    function get_cep_infos( $tsp_cep_value, $tsp_cep_active ){		
 		
 
         $cep = str_replace('-', '', $tsp_cep_value);

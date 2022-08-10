@@ -55,13 +55,16 @@ add_action('wp_enqueue_scripts', 'tsp_scripts_front');
 function tsp_footer_orange_stripe(){	
 	$tsp_cep_value = get_option('tsp_cep_value', false); //var_dump($tsp_cep_value);
     $tsp_cep_active = get_option('tsp_cep_active', false); //var_dump($tsp_cep_active);
-
-	if( !empty($tsp_cep_value) && $tsp_cep_active == 'yes' ){
-	ob_start();
+    $show = false;
+    if( is_home() || is_front_page() ){
+        $show = true;
+    }
+	if( !empty($tsp_cep_value) && $tsp_cep_active == 'yes' && $show ){
+	
 	?>
     <div id="orange_stripe">
         <div class="content-address">
-            <?php $infos = ConnectViaCep::get_cep_infos( $tsp_cep_value, $tsp_cep_active );  //var_dump($infos);?>
+            <?php $ConnectViaCep = new ConnectViaCep; $infos = $ConnectViaCep->get_cep_infos( $tsp_cep_value, $tsp_cep_active );  //var_dump($infos);?>
             <p><?php echo $infos['logradouro']; ?>, <?php echo $infos['localidade']; ?> - <?php echo $infos['uf']; ?></p>
             <p><?php echo $infos['cep']; ?></p>
         </div>
