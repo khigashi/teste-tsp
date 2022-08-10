@@ -1,0 +1,14 @@
+#orange_stripe{
+    background: orange;
+    margin: 0px;
+    padding: 40px;
+}
+.content-address{
+    width: 100%;
+}
+.content-address p{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    color: #fff;
+}
