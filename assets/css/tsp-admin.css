@@ -1,0 +1,43 @@
+#custom-settings{
+    display: block;
+    background: #fff;
+    padding: 25px;
+    -webkit-box-shadow: 0px 13px 10px -8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 13px 10px -8px rgba(0,0,0,0.2);
+    box-shadow: 0px 13px 10px -8px rgba(0,0,0,0.2);
+}
+#custom-settings .container-header{
+    padding: 0px 0 20px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+    
+}
+h1.settings-ico{
+    background-image: url("../img/settings-ico.png");
+    background-image: url(../img/settings-ico.png);
+    display: block !important;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: inherit;
+}
+#custom-settings .container{
+
+}
+.clear{}
+#table-tsp{
+    width: 100%;
+}
+#table-tsp tr{
+    width: 100%;
+    background: #f6f6f6;
+}
+#table-tsp td{
+    padding: 20px;
+}
+#table-tsp .header-table th{
+    text-align: left;
+    padding: 10px 20px;
+}
+#table-tsp .header-table tr{
+    background: #fff;
+}

@@ -1,6 +1,6 @@
 <?php 
 /*
-Plugin Name: Teste TSP
+Plugin Name: Inserir Endereço de Rodapé
 Plugin URI: https://github.com/estevaoacioli
 Description: Teste para Desenvolvedor TSP
 Author: Valorag - Estevão Acioli
